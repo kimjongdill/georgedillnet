@@ -1,0 +1,13 @@
+{
+  "slug": "clawsome",
+  "title": "You're Clawsome",
+  "year": 2026,
+  "medium": "Multi Block Print",
+  "dimensions": "5 x 7 in",
+  "edition": "open",
+  "colors": 2,
+  "images": ["clawsome.jpg"],
+  "description": "A valentine for friends and family. The lobster block celebrates our first time cooking lobster tails at home.",
+  "tags": ["block"],
+  "featured": true
+}

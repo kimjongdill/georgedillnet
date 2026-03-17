@@ -1,0 +1,13 @@
+{
+  "slug": "elbow",
+  "title": "The Peoples' Elbow",
+  "year": 2026,
+  "medium": "Multi Block Print",
+  "dimensions": "8 x 10 in",
+  "edition": "open",
+  "colors": 1,
+  "images": ["peopleselbow.jpg"],
+  "description": "Only the greatest spectacle in sports entertainment television.",
+  "tags": ["Block"],
+  "featured": true
+}

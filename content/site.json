@@ -1,0 +1,14 @@
+{
+  "name": "George Dill",
+  "tagline": "Prints & Works on Paper",
+  "bio": "Short artist statement goes here.",
+  "email": "george@georgedill.net",
+  "instagram": null,
+  "location": "Avondale, Chicago, Illinois, USA",
+  "seo": {
+    "defaultTitle": "George Dill",
+    "titleTemplate": "%s — Your Name",
+    "description": "Prints and works on paper.",
+    "url": "https://georgedill.net"
+  }
+}
