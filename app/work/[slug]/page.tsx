@@ -38,13 +38,13 @@ export default async function WorkPage({ params }: Props) {
         {/* Images */}
         <div className="flex flex-col gap-4">
           {work.images.map((img, i) => (
-            <div key={i} className="bg-zinc-100">
+            <div key={i} className="relative bg-zinc-100 aspect-[4/5]">
               <Image
                 src={`/${img}`}
                 alt={`${work.title} — image ${i + 1}`}
-                width={800}
-                height={1000}
-                className="w-full h-auto"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-contain"
                 priority={i === 0}
               />
             </div>

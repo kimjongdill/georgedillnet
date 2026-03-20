@@ -10,7 +10,7 @@ export default function GalleryPage() {
       {/* Hero */}
       <div className="relative" style={{ height: "60vh" }}>
         <Image
-          src="/prints.png"
+          src="/prints.avif"
           alt="4 copies of 'pink poof jacket club' laid out in a grid."
           fill
           sizes="100vw"
