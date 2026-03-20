@@ -33,7 +33,7 @@ export default async function WorkPage({ params }: Props) {
   if (!work) notFound();
 
   return (
-    <div className="px-6 md:px-12 pb-24">
+    <div className="px-6 md:px-12 pt-8 pb-24">
       <div className="grid md:grid-cols-2 gap-12 lg:gap-24 max-w-5xl">
         {/* Images */}
         <div className="flex flex-col gap-4">

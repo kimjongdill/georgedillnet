@@ -5,8 +5,8 @@ import type { Work } from "@/lib/types";
 export default function WorkCard({ work }: { work: Work }) {
   const thumb = work.images[0];
   return (
-    <Link href={`/work/${work.slug}`} className="group block">
-      <div className="bg-zinc-100 overflow-hidden mb-3">
+    <Link href={`/work/${work.slug}`} className="group block w-full md:w-auto">
+      <div className="bg-white overflow-hidden mb-3">
         {thumb && (
           <Image
             src={`/${thumb}`}
@@ -14,7 +14,7 @@ export default function WorkCard({ work }: { work: Work }) {
             width={0}
             height={0}
             sizes="(max-width: 768px) 50vw, 33vw"
-            className="h-72 md:h-[40vh] w-auto transition-all duration-500"
+            className="h-72 w-full object-contain md:h-[40vh] md:w-auto transition-all duration-500"
           />
         )}
       </div>

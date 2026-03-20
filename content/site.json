@@ -1,13 +1,13 @@
 {
   "name": "George Dill",
-  "tagline": "Printmaking is Old Fashioned Memeing",
-  "bio": "Short artist statement goes here.",
+  "tagline": "Memeing on paper and fabric",
+  "bio": "George began making linoleum block prints as an effort to engage in creativity and unplug from social media consumption. His work however revels in some of those viral moments - especially when high tension devolves into absurdity. George's line drawing style is informed by his previous work as an engineer and early childhood aspirations to be a newspaper comic strip artist. These pieces show George's growth in the techniques of linoleum block and screen printing, which he started learning at the Chicago Printmakers Collaborative in 2025.",
   "email": "george@georgedill.net",
   "instagram": null,
   "location": "Avondale, Chicago, Illinois, USA",
   "seo": {
     "defaultTitle": "George Dill",
-    "titleTemplate": "%s — Your Name",
+    "titleTemplate": "%s — George Dill",
     "description": "Prints and works on paper.",
     "url": "https://georgedill.net"
   }

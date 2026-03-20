@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { getSiteConfig } from "@/lib/content";
-import Header from "@/components/Header";
+import Nav from "@/components/Nav";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${dmSans.variable} font-sans antialiased`}>
-        <Header name={site.name} tagline={site.tagline} />
+        <Nav name={site.name} />
         <main>{children}</main>
       </body>
     </html>
