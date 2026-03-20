@@ -9,7 +9,7 @@ export default function WorkCard({ work }: { work: Work }) {
       <div className="bg-zinc-100 overflow-hidden mb-3">
         {thumb && (
           <Image
-            src={thumb}
+            src={`/${thumb}`}
             alt={work.title}
             width={0}
             height={0}

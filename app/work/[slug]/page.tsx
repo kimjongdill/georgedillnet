@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${work.medium}, ${work.year}. ${work.dimensions}.`,
     openGraph: {
       images: work.images[0]
-        ? [`/works/${work.slug}/${work.images[0]}`]
+        ? [`/${work.images[0]}`]
         : [],
       url: `${site.seo.url}/work/${work.slug}`,
     },
@@ -40,7 +40,7 @@ export default async function WorkPage({ params }: Props) {
           {work.images.map((img, i) => (
             <div key={i} className="bg-zinc-100">
               <Image
-                src={`/works/${work.slug}/${img}`}
+                src={`/${img}`}
                 alt={`${work.title} — image ${i + 1}`}
                 width={800}
                 height={1000}
