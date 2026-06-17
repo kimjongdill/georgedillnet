@@ -1,0 +1,13 @@
+{
+  "slug": "fourjuly",
+  "title": "America's Semiquincentennial",
+  "year": 2026,
+  "medium": "Screen and Block Print",
+  "dimensions": "Adult TShirt",
+  "edition": "open",
+  "colors": 2,
+  "images": ["fourjuly.avif"],
+  "description": "America has been independent for 250 years. This piece plays on a common Independence Day self-own.",
+  "tags": ["block"],
+  "featured": true
+}

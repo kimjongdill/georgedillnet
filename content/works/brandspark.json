@@ -1,0 +1,13 @@
+{
+  "slug": "brandspark",
+  "title": "Brands Park",
+  "year": 2026,
+  "medium": "Multi Block Print",
+  "dimensions": "Kids TShirt",
+  "edition": "open",
+  "colors": 2,
+  "images": ["brandspark.avif"],
+  "description": "I hosted a print your own tshirt workshop at Brands Park. Kids laid out and printed their own shirts.",
+  "tags": ["block"],
+  "featured": true
+}
