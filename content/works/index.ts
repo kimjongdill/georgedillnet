@@ -8,11 +8,13 @@ import christmas25 from "./christmas25.json";
 import brandspark from "./brandspark.json";
 import fourjuly from "./fourjuly.json";
 import persimmon from "./persimmons.json"
+import whitehen from "./whitehen.json";
 import type { Work } from "@/lib/types";
 
 // Add new works here — one import per file
 export const works: Work[] = [
     cupsnake, 
+    whitehen,
     pinkpoof,
     fourjuly,
     brandspark,

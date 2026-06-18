@@ -1,0 +1,13 @@
+{
+  "slug": "whitehen",
+  "title": "Chicago Wildlife: White Hen",
+  "year": 2026,
+  "medium": "Screen Print",
+  "dimensions": "8\" x 10\"",
+  "edition": "open",
+  "colors": 2,
+  "images": ["whitehen.avif"],
+  "description": "Sometimes Chicago wildlife becomes endangered (foxtrot) or extinct (white hen). Lets pour one out for our fallen heroes.",
+  "tags": ["block"],
+  "featured": true
+}
